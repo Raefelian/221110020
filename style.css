@@ -1,0 +1,110 @@
+body {
+  background-color: #111319;
+}
+
+.navbar {
+  transition: background-color 0.5s ease;
+}
+
+.navbar.scrolled {
+  background-color: #151515;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  color: #49D266 !important;
+}
+
+.jumbotron {
+  background-image: url("/Assets/Images/Gambar\ 4.jpeg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+}
+
+.skill-item {
+  color: #49D26D;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.skill-item:hover {
+  background-color: #2B2C2E;
+  color: #49D26D;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.btn-outline-dark {
+  transition: color 0.3s, border-color 0.3s;
+}
+
+.btn-outline-white {
+  color: #fff;
+  border-color: #fff;
+}
+
+.btn-outline-white:hover {
+  color: #49D26D;
+  border-color: #49D26D;
+  background-color: transparent;
+}
+
+.profile-picture-wrapper {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.profile-picture-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.portfolio-item {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.map-wrapper ifra{
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.map-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+h3 {
+  margin-top: 1rem;
+}
+
+.portfolio-item img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+@media (max-width: 767.98px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  .portfolio-item {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
