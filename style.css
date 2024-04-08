@@ -19,7 +19,7 @@ body {
 }
 
 .jumbotron {
-  background-image: url("/Assets/Images/Gambar\ 4.jpeg");
+  background-image: url("Gambar 4.jpeg");
   background-size: cover;
   background-position: center;
   color: #fff;
